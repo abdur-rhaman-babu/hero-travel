@@ -41,6 +41,12 @@ h2{
     line-height:3.125rem;
 }
 
+p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+}
+
 .card-description{
     color: var(--para-color);
     font-size: 1rem;
@@ -53,6 +59,23 @@ h2{
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.625rem;
+}
+
+.primary-btn{
+    background:var(--button-bg-color);
+    border:none;
+    border-radius:.5rem;
+    padding:1rem 1.5rem;
+}
+
+.primary-btn a{
+    color:var(--secondary-color);
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.225rem;
+}
+.primary-btn a span{
+    margin-right:.5rem;
 }
 
 /* ---------------------header-section----------------------- */
@@ -90,4 +113,51 @@ h2{
 
 .main-menu li a:hover {
    color:var(--button-bg-color);
+}
+
+/* -----------------hero-section------------------------- */
+.hero-section{
+    max-width:1170px;
+    margin:0 auto;
+    border-radius:1rem;
+    background-image:linear-gradient(180.00deg, rgba(19, 19, 24, 0.8),rgba(19, 19, 24, 0) 100%)
+    ,url(../Images/banner.png);
+    background-repeat:no-repeat;
+    text-align:center;
+    height:500px;
+    padding:7rem;
+}
+
+.hero-container .hero-subtitle{
+    color:var(--secondary-color);
+    margin:1.5rem 10rem 3rem 10rem;
+}
+
+input, select{
+    height:3.2rem;
+    width:10rem;
+    border-radius:.5rem;
+    border:none;
+    padding:0 .5rem;
+    border-right:.375rem solid #fff;
+    outline:none;
+    font-size:1rem;
+    margin:0 1rem;
+}
+
+select{
+    color: rgba(19, 19, 24, 0.5);
+    font-weight: 400;
+    line-height: 1.125rem;
+}
+
+.search-option{
+    border-radius:.5rem;
+    background: rgba(255, 255, 255, 0.3);
+    display:inline-block;
+    padding:1rem 0rem;
+}
+
+.search-option button{
+   margin:0 1rem;
 }
