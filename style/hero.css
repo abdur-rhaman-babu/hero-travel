@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root{
+    --primary-color:#131318;
+    --secondary-color: rgb(255, 255, 255);
+    --para-color:#5A5A5D;
+    --subtitle-color:#131318B3;
+    --button-bg-color:rgb(255, 84, 0);
+    --menu-bar-color:#424247;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-decoration:none;
+    list-style:none;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+
+/* -------------shared-style----------------- */
+.flex{
+    display:flex;
+}
+
+h1{
+    color: var(--secondary-color);
+    font-size: 4rem;
+    font-weight: 800;
+    line-height: 5rem;
+}
+
+h2{
+    color:var(--primary-color);
+    font-size:2.5rem;
+    font-weight: 800;
+    line-height:3.125rem;
+}
+
+.card-description{
+    color: var(--para-color);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+}
+
+.subtitle{
+    color: var(--subtitle-color);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+}
+
+/* ---------------------header-section----------------------- */
+/* ----------nav-section---------------- */
+.nav-bar{
+    align-items:center;
+    justify-content:space-between;
+    padding:3rem 9%;
+}
+
+.logo-name{
+    font-size:2.2rem;
+    font-weight: 800;
+    line-height: 2.8rem;
+}
+
+.logo-name span{
+   color:var(--button-bg-color);
+}
+
+.nav-logo,
+.main-menu{
+    align-items:center;
+    gap:.8rem;
+    cursor: pointer;
+}
+
+.main-menu li a {
+    margin-right:2.5rem;
+    color: var(--menu-bar-color);
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.main-menu li a:hover {
+   color:var(--button-bg-color);
+}
