@@ -52,6 +52,10 @@ p{
     line-height: 1.625rem;
 }
 
+.text-center{
+    text-align:center;
+}
+
 .card-description{
     color: var(--para-color);
     font-size: 1rem;
@@ -64,6 +68,10 @@ p{
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.625rem;
+}
+
+.subtitle-margin{
+    margin:0 17rem;
 }
 
 .primary-btn,
@@ -201,3 +209,83 @@ select{
     color: rgb(90, 90, 93);
     margin:1.5rem 0;
 }
+
+/* -----------destination-section---------------- */
+
+.destination-container,
+.box{
+   border-radius:1rem;
+}
+
+.destination-container,
+.box h4{
+    font-size: 1.625rem;
+    font-weight: 800;
+    line-height: 2.125rem;
+}
+
+.image1, .image2, .image6, .image7{
+    height:300px;
+}
+
+.image3, .image4, .image5{
+    height:286px;
+}
+
+
+.image1{
+    grid-area: des1;
+    background:url(../Images/destination1.png);
+}
+
+.image2{
+    grid-area: des2;
+    background:url(../Images/destination2.png);
+}
+.image3{
+    grid-area: des3;
+    background:url(../Images/destination3.png);
+}
+.image4{
+    grid-area: des4;
+    background:url(../Images/destionation4.png);
+}
+.image5{
+    grid-area: des5;
+    background:url(../Images/destination5.png);
+}
+.image6{
+    grid-area: des6;
+    background:url(../Images/destination6.png);
+}
+.image7{
+    grid-area: des7;
+    background:url(../Images/destination7.png);
+}
+
+
+.box{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:var(--secondary-color);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.destination-container{
+    display:grid;
+    gap:1.5rem;
+    margin-top:4rem;
+    grid-template-areas:  
+        'des1 des1 des1 des1 des1 des2 des2 des2 des2 des2'
+        'des3 des3 des3 des4 des4 des4 des4 des4 des5 des5'
+        'des6 des6 des6 des6 des7 des7 des7 des7 des7 des7'
+    ;
+
+}
+
+
+
+
