@@ -286,6 +286,44 @@ select{
 
 }
 
+/* -----------------choose-section----------------- */
+.choose-container{
+    align-items:center;
+    gap:1.5rem;
+    margin-top:3rem;
+}
+.choose-card{
+    text-align:left;
+    padding:2rem 3.5rem 2rem 2rem;
+}
+
+.choose-card h3{
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    font-weight: 800;
+    line-height: 2.8rem;
+    margin:1.5rem 0 1rem 0;
+}
+
+.choose-card1, 
+.choose-card2, 
+.choose-card3{
+    border: 1px solid rgba(251, 181, 99, 0.2);
+    border-radius:1rem;
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.choose-card2{
+    border: 1px solid rgba(41, 206, 246, 0.2);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.choose-card3{
+    margin:1.5rem 18.656rem;
+    border: 1px solid rgba(233, 68, 68, 0.2);
+    background: rgba(233, 68, 68, 0.05);
+}
+
 
 
 
