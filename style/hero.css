@@ -393,5 +393,15 @@ select{
 }
 
 
+/* -----------perfect-section------------- */
+.perfect-description{
+    margin-bottom:2rem;
+}
+.perfect-description li{
+    color:black;
+    opacity:100%;
+    font-weight:700;
+}
+
 
 
