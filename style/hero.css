@@ -403,5 +403,58 @@ select{
     font-weight:700;
 }
 
+/* ------------newsletter-section------------- */
+.newsletter-form{
+    display:flex;
+    flex-direction: column;
+    gap:1rem;
+    border:1px solid var(--button-bg-color);
+    padding:1rem;
+    border-radius:1rem;
+}
+
+.newsletter-form input{
+  background: #fbf9f9;
+  width:100%;
+  margin-left:0px;
+  margin:0 0 1rem 0;
+}
+
+.newsletter-container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:2rem;
+}
+
+.newsletter-card{
+    position:relative;
+}
+
+.news-card{
+    background:var(--button-bg-color);
+    color:var(--secondary-color);
+    padding:1rem 1.5rem;
+    display: inline-block;
+    border-radius:.5rem;
+    transform:rotate(-20deg);
+    position:absolute;
+    bottom:3.2rem;
+    right:.5rem;
+    text-align:center;
+}
+
+.news-card p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 30px;
+}
+.news-card h3{
+    font-size:2rem;
+    font-weight: 800;
+    line-height: 2.5rem;
+}
+
+
 
 
