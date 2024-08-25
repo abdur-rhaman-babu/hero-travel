@@ -512,6 +512,19 @@ footer > p{
         line-height:1.5rem;
     }
 
+    main section{
+        margin:1rem 1rem;
+    }
+
+    .main-title{
+        font-size: 2rem;
+        text-align:center;
+    }
+
+    .subtitle{
+        text-align:center;
+    }
+
     /* ----navbar---- */
     .bar-icon{
        display: block;
@@ -558,6 +571,29 @@ footer > p{
     .search-option button{
         width:90%;
     }  
+
+    /* -------popular------ */
+    .popular-container{
+        flex-direction:column;
+    }
+
+    .popular-container button{
+        width:100%;
+    }
+    
+    .popular-menu li{
+        font-size: .8rem;
+        line-height:1rem;
+    }
+   
+    .popular-image img{
+        width:100%;
+    }
+
+    .popular-description{
+        text-align:center;
+    }
+    
 }
 
 
