@@ -335,6 +335,10 @@ select{
     gap:.8rem;
 }
 
+.icon i{
+    color:var(--button-bg-color);
+}
+
 .deals-title{
     font-size:1.5rem;
     font-weight:800;
@@ -517,7 +521,7 @@ footer > p{
     }
 
     .main-title{
-        font-size: 2rem;
+        font-size: 1.7rem;
         text-align:center;
     }
 
@@ -593,7 +597,99 @@ footer > p{
     .popular-description{
         text-align:center;
     }
+
     
+/* -----------destination-section---------------- */
+
+.subtitle-margin{
+    margin:0 0;
+}
+.destination-container{
+    margin:1.5rem 0;
+    grid-template-areas:  
+        'des1'
+        'des2'
+        'des3'
+        'des4'
+        'des5'
+        'des6'
+        'des7'
+    ;
+}
+
+/* -----------------choose-section----------------- */
+.choose-container{
+    flex-direction: column;
+    margin:1.5rem 0;
+}
+.choose-card{
+    text-align:left;
+    padding:2rem 1rem;
+}
+
+.choose-card3{
+    margin:1.5rem 0;
+}
+
+/* -----------deals-section----------- */
+.deals-icon, .icon{
+    flex-wrap: wrap;
+}
+
+.deals-icon{
+    gap:.8rem;
+}
+
+.deals-title{
+    font-size:1.2rem;
+    margin:.5rem 0;
+}
+
+.deals-subtitle{
+    font-size: .8rem;
+    margin:.5rem 0;
+    line-height:1.2rem;
+}
+
+.card-1, .deals-card{
+    width:100%;
+    padding:2rem;
+}
+
+.deals-content, .deals-content2{
+    padding:15rem 1rem 1rem 1rem;
+}
+.deals-content button, .deals-content2 button{
+    width:100%;
+}
+
+.deals-section button{
+    margin-top:1.5rem;
+}
+
+.deals-container{
+    margin:0;
+}
+/* ----------perfect-section------------- */
+.popular-image iframe{
+    width:100%;
+    border-radius:1rem;
+}
+/* --------newsletter-section------------------ */
+.newsletter-container{
+    flex-direction: column;
+}
+
+.newsletter-card img{
+    width:100%;
+}
+
+.news-card p{
+    font-size: 1.2rem;
+}
+.news-card h3{
+    font-size:1.5rem;
+}
 }
 
 
